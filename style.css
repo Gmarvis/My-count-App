@@ -1,0 +1,55 @@
+body{
+  /* background-image:url(/asd.jpg)  */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color:rgb(0, 0, 0);
+  font-size: 30px;
+}
+
+
+.myapp {
+  display: flex block;
+align-items: center;
+justify-content: center;
+text-align: center;
+background: rgb(110, 104, 104);
+max-width: 80%;
+margin: auto;
+border: 3px black;
+}
+
+h1{
+align-items: center;
+justify-content: center;
+text-align: center;
+color: rgb(201, 186, 186);
+font-size: 50px;
+}
+
+h2{
+  font-size: 50px;
+
+  align-items: center;
+justify-content: center;
+text-align: center;
+color: rgb(0, 0, 0);
+}
+
+button{
+  display: flexbox;
+  border: none;
+  padding-top: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+ 
+  
+}
+
+#increment-bnt{
+  background: darkred;
+}
+#save-bnt{
+  background: darkgreen;
+}
